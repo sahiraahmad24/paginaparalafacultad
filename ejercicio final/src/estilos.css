@@ -1,0 +1,136 @@
+.volkswagen-pick-up {
+    background-image:  url(../images/auto-numero-1.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .sheep-ica {
+    background-image:  url(../images/auto-numero-2.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .chevrolet-coupe-ss {
+    background-image:  url(../images/auto-numero-3.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .volkswagen-furgon {
+    background-image:  url(../images/auto-numero-4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .chevrolet-stive-line {
+    background-image:  url(../images/auto-numero-5.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .onda-sivic {
+    background-image:  url(../images/auto-numero-6.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .rastrojero {
+    background-image:  url(../images/auto-numero-7.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .mercedes-mb180 {
+    background-image:  url(../images/auto-numero-8.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .volkswagen-senda {
+    background-image:  url(../images/auto-numero-9.jpg); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  #slider {
+    overflow: hidden;
+  }
+  
+  #slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+  }
+  
+  #slider figure img {
+    float: left;
+    width: 20%;
+  }
+  
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+  }
+  
+  footer {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    line-height: 25px;
+  }
+  #qrcode img {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-top: 20px;
+  }
+  
+  #datos {
+    float: left;
+    text-align: left;
+  }
+  
+  #official {
+    float: left;
+    text-align: left;
+    padding-left: 33%;
+    padding-right: 33%;
+  }
+  
+  #redes {
+    color: gray;
+  }
